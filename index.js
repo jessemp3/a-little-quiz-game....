@@ -1,16 +1,16 @@
-// personagem primario 
+// fist character
 const personagem = prompt("Qual o nome do seu persongem?")
 const poder = Number(prompt("Qual o poder de ataque do seu personagem?"))
-// segundo personagem
+// second character
 const personagem1 = prompt("Qual o nome você dará ao personagem que defenderá?")
 let vida = Number(prompt("Quanto de vida esse personagem tem?"))
 const defesa = Number(prompt("Qual o poder de defesa desse personagem?"))
 const escudo = confirm("Esse personagem tem escudo?")
 
-// primeiro personagem
+// fist character
 document.writeln("<br>O nome do seu personagem é " + personagem)
 document.writeln("<br>O poder do seu personagem é " + poder)
-// segundo personagem
+// second character
 document.writeln("<br><hr>O nome do personagem que defenderá é " + personagem1)
 document.writeln("<br>A vida dele é " + vida)
 document.writeln("<br>O poder de defesa é " + defesa)
